@@ -1,0 +1,111 @@
+body {
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFFFF;
+    /* width: 900px; */
+}
+header {
+    background-color: #EEEEEE;
+     width: 70%;
+     display: flex;
+    justify-content: center
+}
+h1 {
+    font-size: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.h2container {
+    /* width: 45%; */
+    display: flex;
+   justify-content: center;
+   margin-top: 3em;
+   height: 30px;
+   margin-bottom: 3em;
+ 
+}
+.barreContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#myProgress {
+    background-color: grey;
+    border: 3px solid black;
+    height: 35px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+#myBar {
+    width: 1%;
+    height: 35px;
+    background-color: red;
+}
+h2 {
+    align-self: center;
+    display: block;
+}
+/* .redDiv {
+    max-width: 5%;
+    background-color: red;
+} */
+main {
+    margin-top: 5em;
+    width :60%;
+    background-color: #ddddff;
+    width: 1050px;
+    /* height: 510px; */
+}
+.button {
+    float: right;
+    height: 30px;
+    width: 60px;
+    margin-top: 2em;
+}
+#board {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.carte,
+.carteclicked,
+.cartefound 
+{
+    width: 100px;
+    height: 100px;
+    margin:0.9em 1.5em 0.9em 1.5em;
+}
+
+/* .carte.clicked .cache {
+    display: none;
+} */
+.cache {
+   background-color: grey;
+   width: 100px;
+   height: 100px;
+}
+.image {
+     background-color: white;
+    width: 100px;
+   height: 100px;
+   z-index: 0;
+     /* display : none; */
+}
+.cache:hover {
+    background-color:lightgrey;
+}
+.carte .image,
+.carteclicked .image,
+.cartefound .image
+
+{
+background-image: url('images/cards.png');
+}
+
+/* j'ai enlevé tout ce qui était en dur et l'ai mis dans trash. */
